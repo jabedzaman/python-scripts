@@ -10,6 +10,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Rock Paper Scissors](Rock%20Paper%20Scissors/readme.md)
 - [Email Slicer](Email%20Slicer/readme.md)
 - [Password Generator](Password%20Generator/readme.md)
+- [Number Guess](Number%20Guess/readme.md)
 
 ## License
 
