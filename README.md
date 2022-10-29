@@ -18,6 +18,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Number Checker](Number%20Checker/readme.md)
 - [Fibonacci series](Fibonacci%20Series/readme.md)
 - [Multiplication Table (sentinel)](Multiplication%20Table/readme.md)
+- [Contact List](Contact%20List/readme.md)
 
 ## License
 
