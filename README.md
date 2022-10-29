@@ -25,6 +25,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Clock Angle](Clock%20Angle)
 - [Palindrome](Palindrom%20Number)
 - [Egg Arranger](Egg%20Arranger)
+- [Cake Cutter](Cake%20Cutter)
 
 ## License
 
