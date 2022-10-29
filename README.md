@@ -20,6 +20,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Multiplication Table (sentinel)](Multiplication%20Table/readme.md)
 - [Contact List](Contact%20List/readme.md)
 - [Prime Composite](Prime%20Composite/readme.md)
+- [Life Duration](Life%20Duration%20Calculator/readme.md)
 
 ## License
 
