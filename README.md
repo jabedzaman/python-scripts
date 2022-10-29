@@ -4,7 +4,10 @@
 
 This repository contains a collection of Python scripts that I have written for various purposes. The scripts are organized into folders by topic. Each folder contains a README.md file that describes the scripts in that folder.
 
-## Topics
+## Content
+
+- [Rolling Dice](Rolling-Dice/readme.md)
+
 
 ## License
 
