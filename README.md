@@ -23,6 +23,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Life Duration](Life%20Duration%20Calculator/readme.md)
 - [Leap Year Range](Leap%20Year%20Range/readme.md)
 - [Clock Angle](Clock%20Angle/readme.md)
+- [Palindrome](Palindrom%20Number/readme.md)
 
 ## License
 
