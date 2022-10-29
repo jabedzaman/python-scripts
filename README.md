@@ -11,6 +11,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Email Slicer](Email%20Slicer/readme.md)
 - [Password Generator](Password%20Generator/readme.md)
 - [Number Guess](Number%20Guess/readme.md)
+- [Acronymn Generator](Acronym%20Generator/readme.md)
 
 ## License
 
