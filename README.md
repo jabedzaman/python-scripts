@@ -26,6 +26,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Palindrome](Palindrom%20Number)
 - [Egg Arranger](Egg%20Arranger)
 - [Cake Cutter](Cake%20Cutter)
+- [Rank Mark](Rank%20and%20Mark%20calculator/)
 
 ## License
 
