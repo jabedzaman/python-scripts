@@ -15,6 +15,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Random Story](Random%20Story/readme.md)
 - [Currency Convertor](Currency%20Convertor/readme.md)
 - [Scientific Calculator](Scientific%20Calculator/readme.md)
+- [Number Checker](Number%20Checker/readme.md)
 
 ## License
 
