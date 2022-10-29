@@ -16,6 +16,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Currency Convertor](Currency%20Convertor/readme.md)
 - [Scientific Calculator](Scientific%20Calculator/readme.md)
 - [Number Checker](Number%20Checker/readme.md)
+- [Fibonacci series](Fibonacci%20Series/readme.md)
 
 ## License
 
