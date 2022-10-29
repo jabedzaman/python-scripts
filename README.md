@@ -6,8 +6,8 @@ This repository contains a collection of Python scripts that I have written for 
 
 ## Content
 
-- [Rolling Dice](Rolling-Dice/readme.md)
-
+- [Rolling Dice](Rolling%20Dice/readme.md)
+- [Rock Paper Scissors](Rock%20Paper%20Scissors/readme.md)
 
 ## License
 
