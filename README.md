@@ -24,6 +24,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Leap Year Range](Leap%20Year%20Range/readme.md)
 - [Clock Angle](Clock%20Angle/readme.md)
 - [Palindrome](Palindrom%20Number/readme.md)
+- [Egg Arranger](Egg%20Arranger/readme.md)
 
 ## License
 
