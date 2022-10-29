@@ -13,6 +13,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Number Guess](Number%20Guess/readme.md)
 - [Acronymn Generator](Acronym%20Generator/readme.md)
 - [Random Story](Random%20Story/readme.md)
+- [Currency Convertor](Currency%20Convertor/readme.md)
 
 ## License
 
