@@ -43,7 +43,7 @@ function Header() {
           }}
           >
             <a
-            href="https://xenseee.tech" className="italic text-2xl ">
+            href="https://xenseee.tech" className="italic text-xs lg:text-2xl ">
             Created by <span className="text-blue-500 font-semibold">Jabed</span>
             </a>
           </motion.div>

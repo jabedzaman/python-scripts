@@ -73,6 +73,7 @@ function Hero() {
       >
         Fork
       </GitHubButton>
+      <div className="hidden lg:inline">
       {/* <!-- Place this tag where you want the button to render. --> */}
       <GitHubButton
         href="https://github.com/jabedzaman/python-scripts/subscription"
@@ -83,7 +84,9 @@ function Hero() {
       >
         Watch
       </GitHubButton>
+      </div>
       {/* <!-- Place this tag where you want the button to render. --> */}
+      <div className="hidden lg:inline">
       <GitHubButton
         href="https://github.com/jabedzaman/python-scripts/discussions"
         data-color-scheme="no-preference: light; light: light; dark: light;"
@@ -93,6 +96,7 @@ function Hero() {
       >
         Discuss
       </GitHubButton>
+      </div>
       </motion.div>
     </div>
   );
