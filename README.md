@@ -18,6 +18,8 @@ This repository contains a collection of Python scripts that I have written for 
 - [Email Slicer](Email%20Slicer)
 - [Fibonacci series](Fibonacci%20Series)
 - [Income Tax Calculator](Income%20Tax%20Calculator)
+- [Insta DP](Insta%20DP)
+- [JPG Convertor](JPG%20convertor)
 - [Leap Year Range](Leap%20Year%20Range)
 - [Life Duration](Life%20Duration%20Calculator)
 - [Multiplication Table (sentinel)](Multiplication%20Table)
@@ -32,6 +34,8 @@ This repository contains a collection of Python scripts that I have written for 
 - [Rank Mark](Rank%20and%20Mark%20calculator/)
 - [Scientific Calculator](Scientific%20Calculator)
 - [Weather](Weather)
+- [Wifi Password](Wfi%20Password)
+- [Word Counter](Word%20Counter)
 - [Youtube Video Downloader](Youtube%20Video%20Downloader)
 
 ## License
