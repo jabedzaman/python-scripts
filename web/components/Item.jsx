@@ -177,7 +177,7 @@ const scripts = [
 
 function Item() {
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className="text-gray-600 dark:text-neutral-300 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className="-my-8 divide-y-2 divide-gray-100">
           {scripts.map((item) => (
@@ -201,7 +201,7 @@ function Item() {
               className="py-8 flex flex-wrap md:flex-nowrap"
             >
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                <h2 className="text-2xl font-medium text-gray-900 dark:text-white title-font mb-2">
                   {item.name}
                 </h2>
                 <p className="leading-relaxed">{item.description}</p>

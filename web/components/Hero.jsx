@@ -1,8 +1,10 @@
 import React from "react";
 import GitHubButton from "react-github-btn";
 import { motion } from "framer-motion";
+import {useTheme} from 'next-themes'
 
 function Hero() {
+  const { theme } = useTheme()
   return (
     <div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -23,7 +25,7 @@ function Hero() {
           transition={{
             duration: 0.5,
           }}
-          src="https://ik.imagekit.io/jabedzaman/Python_Scripts/Python_Scripts_Wez3Xcy23.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667035157365"
+          src={theme === 'dark' ? 'https://ik.imagekit.io/jabedzaman/Python_Scripts/Python_Scripts__2__ZeFyxDnqp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667247222014' : "https://ik.imagekit.io/jabedzaman/Python_Scripts/Python_Scripts_Wez3Xcy23.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667035157365"}
           alt="Python-Scripts"
         />
       </a>
@@ -52,6 +54,14 @@ function Hero() {
         aria-label="Follow @jabedzaman on GitHub"
       >
         Follow @jabedzaman
+      </GitHubButton>
+      <GitHubButton
+        href="https://github.com/HOSENUR"
+        data-color-scheme="no-preference: light; light: light; dark: light;"
+        data-size="large"
+        aria-label="Follow @HOSENUR on GitHub"
+      >
+        Follow @HOSENUR
       </GitHubButton>
       {/* <!-- Place this tag where you want the button to render. --> */}
       <GitHubButton
