@@ -31,6 +31,7 @@ This repository contains a collection of Python scripts that I have written for 
 - [Rolling Dice](Rolling%20Dice)
 - [Rank Mark](Rank%20and%20Mark%20calculator/)
 - [Scientific Calculator](Scientific%20Calculator)
+- [Weather](Weather)
 - [Youtube Video Downloader](Youtube%20Video%20Downloader)
 
 ## License
