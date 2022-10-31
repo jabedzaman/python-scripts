@@ -74,15 +74,18 @@ function Hero() {
         Star
       </GitHubButton>
       {/* <!-- Place this tag where you want the button to render. --> */}
+      <section className="hidden md:block">
+
       <GitHubButton
         href="https://github.com/jabedzaman/python-scripts/fork"
         data-color-scheme="no-preference: light; light: light; dark: light;"
         data-icon="octicon-repo-forked"
         data-size="large"
         aria-label="Fork jabedzaman/python-scripts on GitHub"
-      >
+        >
         Fork
       </GitHubButton>
+        </section>
       <div className="hidden lg:inline">
       {/* <!-- Place this tag where you want the button to render. --> */}
       <GitHubButton
