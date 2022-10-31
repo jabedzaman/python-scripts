@@ -48,7 +48,7 @@ export default function Example() {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      If find this project beneficial then please consider dropping a star on the Python-Script Repository at GitHub 🙋
+                      If you find this resource beneficial then please consider dropping a star on my Python-Scripts Repository at GitHub 🙋
                     </p>
                   </div>
                 </div>
