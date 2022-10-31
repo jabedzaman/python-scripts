@@ -7,6 +7,7 @@ This repository contains a collection of Python scripts that I have written for 
 ## Content
 
 - [Acronymn Generator](Acronym%20Generator)
+- [Algebra Solver](Algebra%20Solver)
 - [ATM clone](ATM%20Clone)
 - [BMI Calculator](BMI%20Calculator)
 - [Cake Cutter](Cake%20Cutter)
