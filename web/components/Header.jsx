@@ -34,7 +34,7 @@ function Header() {
               />
             </a>
           </div>
-          <div onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="cursor-pointer border rounded-full bg-neutral-200 dark:bg-neutral-800 w-12 h-12 flex items-center justify-center text-3xl">
+          <div onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="cursor-pointer border rounded-full bg-neutral-200 dark:bg-neutral-800 w-10 h-10 flex items-center justify-center text-2xl">
 
             {theme === 'light' ? <i className="bi bi-brightness-high-fill"></i> : <i className="bi bi-moon-stars-fill"></i>}
           </div>
