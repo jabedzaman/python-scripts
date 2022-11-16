@@ -2,26 +2,38 @@
 
 # Path: Number Guess/numberguess.py
 
+#Import required module
 import random
-
-def number_guess():
-    # initialize score
-    score = 0
-    # generate a random number
-    number = random.randint(1, 10)
-    # take input from the user
-    guess = int(input("Guess the number between 1 and 10: "))
-    # check if the user guessed the number
-    for i in range (1,4,1):
-        if guess == number:
-            score = score + 1
-            print ("You guessed the number right!")
-        else:
-            print("You guessed the number wrong!")
-            exit()
-    if score == 3:
-        print("You win!")
+while True:
     
-# main function
-if __name__ == "__main__":
-    number_guess()
+    #Initially the number of attempts=0
+    attempts=0
+    
+    #Taking the lower and upper limits of range from the user.
+    n1=int(input("Enter the lower limit of range: "))
+    n2=int(input("Enter the upper limit of range: "))
+    
+    #Generate a random integer between n1 and n2.
+    s=random.randint(n1,n2)
+    i=1
+    
+    #Maximum chance=3
+    while i<=3:
+        attempts+=1
+        c=int(input("Guess a number: "))
+        if c>s:
+            if attempts==3:
+                print("Better Luck Next Time!")
+                break
+            else:
+                print("Have one more try! Your guess was too high")
+        elif c<s:
+            if attempts==3:
+                print("Better Luck Next Time!")
+                break
+            else:
+                print("Have one more try! Your guess was too small")
+        else:
+            print("Congrats! You got it right in",i,"attempts.")
+            break
+        i+=1
