@@ -6,33 +6,71 @@ import { useTheme } from "next-themes";
 function Hero() {
   const { theme } = useTheme();
   return (
-    <div className="">
+    <div className="mt-10 px-6">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <a href="https://github.com/jabedzaman/python-scripts">
-        <motion.img
-          initial={{
-            opacity: 0,
-            y: 100,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          exit={{
-            opacity: 0,
-            y: 100,
-          }}
-          transition={{
-            duration: 0.5,
-          }}
-          src={
-            theme === "dark"
-              ? "https://ik.imagekit.io/jabedzaman/Python_Scripts/Python_Scripts__2__ZeFyxDnqp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667247222014"
-              : "https://ik.imagekit.io/jabedzaman/Python_Scripts/Python_Scripts_Wez3Xcy23.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667035157365"
-          }
-          alt="Python-Scripts"
-        />
-      </a>
+      <center>
+        <a href="https://github.com/jabedzaman/python-scripts">
+          <motion.img
+            initial={{
+              opacity: 0,
+              y: 100,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            exit={{
+              opacity: 0,
+              y: 100,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+            src="https://raw.githubusercontent.com/jabedzaman/readme-logos/main/assets/language/python.svg"
+            className="w-48 h-48 lg:w-80 lg:h-80"
+            alt="Python-Scripts"
+          />
+        </a>
+        <motion.h1
+         initial={{
+          opacity: 0,
+          y: 100,
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+        }}
+        exit={{
+          opacity: 0,
+          y: 100,
+        }}
+        transition={{
+          duration: 0.5,
+        }}
+        className="lg:text-4xl text-2xl font-semibold lg:font-bold mt-10 mb-10">
+          Python Scripts
+        </motion.h1>
+        <motion.p
+         initial={{
+          opacity: 0,
+          y: 100,
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+        }}
+        exit={{
+          opacity: 0,
+          y: 100,
+        }}
+        transition={{
+          duration: 0.5,
+        }}
+        className="lg:text-lg text-sm mt-10 mb-20">
+          A collection of Python scripts created for fun and learning purposes.
+        </motion.p>
+        <hr className="text-gray-200 dark:text-gray-900 mb-20" />
+      </center>
       <motion.div
         initial={{
           opacity: 0,

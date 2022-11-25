@@ -178,8 +178,8 @@ const scripts = [
 function Item() {
   return (
     <section className="text-gray-600 dark:text-neutral-300 body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="-my-8 divide-y-2 divide-gray-100">
+      <div className="container  px-4 sm:px-6 py-24 mx-auto">
+        <div className="-my-8 divide-y-2 divide-gray-100 dark:divide-gray-700">
           {scripts.map((item) => (
             // eslint-disable-next-line react/jsx-key
             <motion.div
