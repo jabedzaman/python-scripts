@@ -1,4 +1,4 @@
-'''Design a project where as an input student will give a static number (between 1 to 6) and then roll the dice which randomly generate some value between 1 to 6. The winning situation arrives when the given static/fixed number exactly same to the number came after rolling the dice.'''
+'''Design a project where as an input student will give a static number (between 1 to 6) and then roll the dice which randomly generate an integer value between 1 to 6. The winning situation arrives when the given static/fixed number exactly same to the number came after rolling the dice.'''
 
 import random
 import time
