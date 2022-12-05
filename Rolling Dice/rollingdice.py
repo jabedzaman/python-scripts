@@ -3,32 +3,32 @@
 import random
 import time
 score=0
-def main():
-    '''Main function'''
-    print('Welcome to the dice rolling game!')
+print('Welcome to the dice rolling game!')
+while True:
     dice=random.randint(1,6)
-
-    while True:
-        try:
-            number = int(input('Enter a number between 1 and 6: '))
-            if number < 1 or number > 6:
-                print('Number must be between 1 and 6!')
+    x=input("Do you want to start the game? (Yes/No): ")
+    if x=="Yes" or x=="yes":
+        while True:
+            try:
+                number = int(input('Enter a number between 1 and 6: '))
+                if number < 1 or number > 6:
+                    print('Number must be between 1 and 6!')
+                    continue
+                break
+            except ValueError:
+                print('Invalid input!')
                 continue
-            break
-        except ValueError:
-            print('Invalid input!')
-            continue
-    print('Rolling the dice...')
-    time.sleep(2)
-    print('The value is:', dice)
-    if dice == number:
-        global score
-        score+=1
-        print('You win!, your score is',score)
+        print('Rolling the dice...')
+        time.sleep(2)
+        print('The value is:', dice)
+        if dice == number:
+            score+=1
+            print('You win!, your score is',score)
+        else:
+            print('You lose!')
+            print('Better Luck next time :(')
+    elif x=="No" or x=="no":
+        break
     else:
-        print('You lose!')
-        print('Better Luck next time :(')
-
-while 1:
-    main()
+        print("Invalid Input!")
 
